@@ -1,0 +1,28 @@
+.banner {
+  background-image: url("../../../assets/banner-home1.jpg");
+  height: 600px;
+  background-position: 0px -600px;
+  background-size: cover;
+}
+.banner h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 20%;
+  left: 5%;
+}
+
+.clothesbox {
+  padding: 10px 5px;
+}
+.clothesbox img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.clothesbox h1 {
+  font-size: 18px;
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+.active-link {
+  font-weight: bold;
+}
+.right {
+  max-height: 55px;
+}
+i {
+  padding-left: 10px;
+}
+.cart {
+  padding: 10px;
+  font-size: 14px;
+}
+.profile {
+  font-size: 14px;
+  padding: 10px;
+}
+.nav-item {
+  text-decoration: none;
+  color: black;
+}

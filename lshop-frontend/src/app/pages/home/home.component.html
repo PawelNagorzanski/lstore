@@ -1,0 +1,23 @@
+<div class="banner">
+
+  <!--
+Photo by <a href="https://unsplash.com/@zachariahjr97?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aby Zachariah</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+-->
+  <h1>Summer sale! -20%</h1>
+
+
+</div>
+<div class="container mt-4 mb-4">
+  <h1 style="text-align: center;">New products!</h1>
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let cd of clothesData;index as i">
+      <div class="clothesbox" *ngIf="i<4">
+        <img src="{{cd.clothesImg}}" />
+        <h1>{{cd.clothesName}}</h1>
+        <p>{{cd.clothesPrice | currency:'USD'}}</p>
+        <button (click)="addToCart(cd)">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>

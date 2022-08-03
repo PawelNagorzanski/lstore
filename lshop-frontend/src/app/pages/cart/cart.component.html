@@ -1,0 +1,17 @@
+<div class="container">
+  <tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Image</th>
+    <th>Quantity</th>
+    <th>Remove</th>
+  </tr>
+  <tr *ngFor="let cd of clothesData;index as i">
+    <td>{{cd.clothesName}}</td>
+    <td>{{cd.clothesPrice | currency:'USD'}}</td>
+    <td><img src="{{cd.clothesImg}}" /></td>
+    <td><button>+</button><button>-</button></td>
+    <td><button (click)="removeItemFromCart(cd)">Remove</button></td>
+
+  </tr>
+</div>
