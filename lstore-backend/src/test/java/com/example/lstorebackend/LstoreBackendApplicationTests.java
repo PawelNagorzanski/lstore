@@ -1,10 +1,10 @@
-package com.example.lstore;
+package com.example.lstorebackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LstoreApplicationTests {
+class LstoreBackendApplicationTests {
 
 	@Test
 	void contextLoads() {
